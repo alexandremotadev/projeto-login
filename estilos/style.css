@@ -38,7 +38,7 @@ section#login {
 
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease; /* desacelera transição */
 }
 
 section#login > div#imagem {
@@ -93,16 +93,16 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-10px);
+    transform: translateY(-10px); /* Fica sempre na ultima linha do seletor */ 
 }
 
 div.campo > input:focus-within {
-    background-color: white;
+    background-color: white; /* Quando clicar caixa fica branca */ 
     border: none;
 }
 
 form > input[type=submit] {
-    display: block;
+    display: block; /* posicionar entrar em 1 linha só*/
     font-size: 1em;
     width: 100%;
     height: 40px;
