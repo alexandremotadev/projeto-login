@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: gold;
     height: 100vh;
     width: 100vw;
 }
@@ -43,7 +43,7 @@ section#login {
 
 section#login > div#imagem {
     display: block; /*imagem vira bloco*/
-    background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
+    background: black url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom; /*mostrar parte mais bonita da foto*/
     height: 200px;
@@ -64,8 +64,8 @@ div#formulario > p {
 }
 
 form > div.campo {
-    background-color: #5f2c82;
-    border: 2px solid #5f2c82;
+    background-color: black;
+    border: 2px solid black;
     display: block;
     width: 100%;
     height: 40px;
@@ -86,7 +86,7 @@ div.campo > i {
 }
 
 div.campo > input {
-    background-color: #94cfcd;
+    background-color: gold;
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
@@ -106,15 +106,16 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #53aaa7;
-    color: white;
+    background-color: gold;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 form > input[type=submit]:hover {
-    background-color: #2d6462;
+    background-color: #b59900;
+    color: white;
 }
 
 form > a.botao {
@@ -127,13 +128,14 @@ form > a.botao {
     margin-top: 5px;
     background-color: white;
     color: #2d6462;
-    border: 1px solid #49a09d;
+    border: 1px solid black;
     border-radius: 7px;
     text-decoration: none;
 }
 
 form > a.botao:hover {
-    background-color: #6cd3cf;
+    background-color: #b59900;
+    color: white;
 }
 
 form > a.botao > i {
